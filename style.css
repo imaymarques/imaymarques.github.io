@@ -1,0 +1,44 @@
+h1 {
+    color: rgb(255, 0, 55)
+}
+h3 {
+    color: rgb(16, 7, 24);
+}
+body {
+    background-color: rgb(239, 243, 184);
+}
+#com {
+    color: darkred;
+}
+#feed {
+    color: brown;
+}
+#work {
+    color: darkblue;
+}
+#aprender {
+    color: indigo;
+}
+
+.name-style {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.descrition-style {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tam1 {
+    font-size: 15px;
+}
+.tam2 {
+    font-size: 15px;
+}
+.tam3 {
+    font-size: 15px;
+}
+.tam4 {
+    font-size: 15px;
+    color: rgb(51, 1, 51);
+}
+li:hover {
+    background-color: rgb(202, 40, 140);
+}
