@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://inovasocial.com.br/wp-content/uploads/2021/04/conectadas-mercado-livre-tecnologia-empoderamento-feminino-inovacao-social-inovasocial-destaque.jpg);
+}
+
+#title {
+    text-align: center;
+}
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+#color-palette {
+    text-align: center;
+}
+.display {
+    display: grid;
+    border: 1px;
+    justify-content: center;
+}
+.color {
+    border: black solid 1px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+.preto {
+    background-color: black;
+}
+.vermelho {
+    background-color: red;
+}
+.verde {
+    background-color: green;
+}
+.roxo {
+    background-color: purple;
+}
+
+.pixel {
+    border: black solid 1px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
