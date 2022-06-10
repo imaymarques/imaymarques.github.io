@@ -1,0 +1,150 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 221, 221);
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+.trybewarts-header-logo {
+  justify-content: left;
+}
+
+#input-email-house {
+  display: inline;
+}
+
+#checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(50, 44, 44);
+  color: white;
+  padding: 10px;
+}
+
+.email-house-section {
+  display: flex;
+}
+
+#hidden-form {
+  display: none;
+}
+
+#input-email1 , #input-password {
+  border-radius: 5px;
+  padding: 7px;
+  margin: 5px;
+  width: 100px;
+}
+
+#btn-login {
+  border-radius: 10px;
+  padding: 7px;
+  margin: 5px;
+  width: 100px;
+  background-color: blue;
+  justify-content: left;
+  color: white;
+}
+
+.subtitulo {
+  display: flex;
+  margin-left: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#input-name , #input-lastname {
+  border-radius: 10px;
+  padding: 7px;
+}
+
+#input-email {
+  border-radius: 10px;
+  padding: 7px;
+  margin-top: 5px;
+}
+
+#label-casa {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+#house {
+  border-radius: 10px;
+  padding: 7px;
+  width: 140px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+#sections {
+  display: flex;
+  align-content: space-between;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  justify-items: center;
+  width: 80%;
+  padding: 10px;
+}
+
+#section-conteudo {
+  display: flex;
+  flex-flow: row wrap;
+  width: 35%;
+  justify-items: center;
+  margin: 10px;
+}
+
+#section-family {
+  width: 40%;
+  margin: 10px;
+  align-items: center;
+}
+
+.subject {
+  align-items: center;
+}
+
+#avaliation {
+  padding: 10px;
+}
+
+#submit-btn {
+  background-color: darkblue;
+  color: white;
+}
